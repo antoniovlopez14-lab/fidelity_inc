@@ -44,8 +44,7 @@ const translations = {
     bookRating: "5.0 out of 5 stars",
     buyAmazon: "Buy on Amazon",
     askAuthor: "Ask the Author",
-    endorsement: "\"A must-read for every tax professional. Dr. Fidelis brings unparalleled expertise to this critical topic.\"",
-    endorser: "Journal of Tax Practice & Research",
+   
     // ========== REVIEWS SECTION ==========
     reviewsTitle: "Client Reviews",
     
@@ -153,8 +152,7 @@ const translations = {
     bookRating: "5.0 de 5 estrellas",
     buyAmazon: "Comprar en Amazon",
     askAuthor: "Preguntar al Autor",
-    endorsement: "\"Una lectura obligada para todo profesional tributario. El Dr. Fidelis aporta una experiencia incomparable a este tema crítico.\"",
-    endorser: "Journal of Tax Practice & Research",
+
         
     // ========== FOOTER ==========
     footerRights: "Todos los Derechos Reservados",
