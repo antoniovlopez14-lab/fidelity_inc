@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <meta name="description" content="Professional tax preparation and planning services in Arlington, TX. Personal & business tax specialists with IRS registered preparers.">
+  <meta name="theme-color" content="#0a2f44">
+  <title>Fidelity Income Tax | Professional Tax Services</title>
+  
+  <!-- Preconnect to external resources for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- Google Fonts for modern typography -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome 6 for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  
+  <!-- Three.js for 3D Globe -->
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.128.0/build/three.module.js"
+      }
+    }
+  </script>
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER / NAVIGATION ==================== -->
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="globe-10.gif" alt="Fidelity Systems Inc" onerror="this.style.display='none'">
+        <div class="logo-text">
+          <h1>Fidelity Income Tax</h1>
+          <p>A Professional Tax Corporation</p>
+        </div>
+      </div>
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+      <ul id="navMenu">
+        <li><a data-translate="services" href="#services">Services</a></li>
+        <li><a data-translate="accountant" href="#accountant">Accountant</a></li>
+        <li><a data-translate="book" href="#book">Book</a></li>
+        <li><a data-translate="appointments" href="appointments.html">Appointments</a></li>
+        <li><a data-translate="reviews" href="#reviews">Reviews</a></li>
+        <li><a data-translate="contact" href="#contact">Contact</a></li>
+        <li><button class="lang-btn" onclick="toggleLanguage()" aria-label="Toggle language">🌐 EN / ES</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero">
+      <div class="trust-badge">
+        <i class="fas fa-shield-alt"></i> 
+        <span data-translate="secureBadge">IRS Registered | Secure & Confidential</span>
+      </div>
+      <h1 data-translate="heroTitle">Personal & Business Tax Specialists</h1>
+      <p data-translate="heroText">Professional tax preparation and planning for individuals and businesses in Arlington, TX.</p>
+      <div class="hero-contact">
+        <p><i class="fas fa-map-marker-alt"></i> 📍 931 E Park Row Drive, Arlington, TX 76010</p>
+        <p><i class="far fa-clock"></i> 🕒 Mon – Fri: 9:00 AM – 6:00 PM</p>
+        <p><i class="fas fa-phone-alt"></i> 📞 <a href="tel:+18172745699">(817) 274-5699</a> &nbsp;|&nbsp; <a href="tel:+18174605699">(817) 460-5699</a></p>
+      </div>
+      <div class="hero-buttons">
+        <a class="btn btn-primary" href="appointments.html" data-translate="schedule">Schedule Appointment</a>
+      </div>
+    </section>
+
+    <!-- ==================== SERVICES SECTION ==================== -->
+    <section id="services" class="services-section">
+      <h2 data-translate="servicesTitle">Our Services</h2>
+      <div class="service-grid">
+        <div class="service-card">
+          <i class="fas fa-user-check"></i>
+          <h3 data-translate="service1">Personal Tax Preparation</h3>
+          <p>Maximize refunds, minimize stress with expert filing.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-chart-line"></i>
+          <h3 data-translate="service2">Business Tax Services</h3>
+          <p>Corporate, LLC, partnership filings and compliance.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-book"></i>
+          <h3 data-translate="service4">Bookkeeping & Accounting</h3>
+          <p>Accurate records year-round for better decisions.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-chart-pie"></i>
+          <h3 data-translate="service3">Tax Planning & Risk Mgmt</h3>
+          <p>Strategic advice to lower liability and protect assets.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== ACCOUNTANT / MEET DR. FIDELIS ==================== -->
+    <section id="accountant" class="accountant-section">
+      <h2 data-translate="meet">Meet Dr. Michael Fidelis, PH.D., MST</h2>
+      <div class="accountant-container">
+        <img src="headshot.jpg" alt="Dr. Michael Fidelis" onerror="this.src='https://placehold.co/300x300?text=Dr.+Fidelis'">
+        <div class="accountant-info">
+          <h3>Dr. Michael Fidelis</h3>
+          <p data-translate="bio">Experienced tax professional helping individuals and businesses navigate complex tax laws with integrity and precision.</p>
+          <ul class="cert-list">
+            <li><i class="fas fa-check-circle"></i> IRS PTIN Registered Preparer</li>
+            <li><i class="fas fa-check-circle"></i> Federal Tax Continuing Education</li>
+            <li><i class="fas fa-check-circle"></i> Small Business Tax Specialist</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== BOOK FEATURE SECTION ==================== -->
+    <section id="book" class="book-section">
+      <div class="book-container">
+        <div class="book-cover">
+          <div class="book-icon">
+            <i class="fas fa-book-open"></i>
+          </div>
+          <img src="book-cover.jpg" alt="Tax Practitioners' Perceptions Regarding Fraudulent Earned Income Tax Credit Claims" onerror="this.src='https://placehold.co/400x500/0a2f44/white?text=Tax+Fraud+Book'">
+        </div>
+        <div class="book-info">
+          <div class="book-badge">
+            <i class="fas fa-trophy"></i> <span data-translate="featuredPublication">Featured Publication</span>
+          </div>
+          <h2 data-translate="bookTitle">Tax Practitioners' Perceptions Regarding Fraudulent Earned Income Tax Credit Claims</h2>
+          <p class="book-author" data-translate="bookAuthor">By Dr. Michael Fidelis, PH.D., MST</p>
+          
+          <div class="book-description">
+            <p data-translate="bookDescription1">This groundbreaking research examines tax practitioners' perspectives on detecting and preventing fraudulent Earned Income Tax Credit (EITC) claims. With decades of experience in tax preparation and forensic accounting, Dr. Fidelis provides invaluable insights into:</p>
+            <ul class="book-features">
+              <li><i class="fas fa-chart-line"></i> <span data-translate="bookFeature1">Common red flags in EITC claims</span></li>
+              <li><i class="fas fa-gavel"></i> <span data-translate="bookFeature2">Legal and ethical responsibilities of tax preparers</span></li>
+              <li><i class="fas fa-shield-alt"></i> <span data-translate="bookFeature3">Best practices for fraud prevention</span></li>
+              <li><i class="fas fa-users"></i> <span data-translate="bookFeature4">Case studies and real-world applications</span></li>
+            </ul>
+            <p data-translate="bookDescription2">Essential reading for tax professionals, accountants, and anyone interested in maintaining integrity in tax preparation.</p>
+          </div>
+          
+          <div class="book-rating">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <span data-translate="bookRating">5.0 out of 5 stars · Academic Excellence Award</span>
+          </div>
+          
+          <div class="book-buttons">
+            <a href="https://www.amazon.com/Practitioners-Perceptions-Regarding-Fraudulent-Earned-ebook/dp/B08227W116" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-large">
+              <i class="fab fa-amazon"></i> <span data-translate="buyAmazon">Buy on Amazon</span>
+            </a>
+            <a href="#contact" class="btn btn-secondary btn-large">
+              <i class="fas fa-question-circle"></i> <span data-translate="askAuthor">Ask the Author</span>
+            </a>
+          </div>
+          
+          <div class="book-endorsements">
+            <p><i class="fas fa-quote-left"></i> <span data-translate="endorsement">"A must-read for every tax professional. Dr. Fidelis brings unparalleled expertise to this critical topic."</span></p>
+            <p class="endorser">— <span data-translate="endorser">Journal of Tax Practice & Research</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== REVIEWS SECTION ==================== -->
+    <section id="reviews" class="reviews-section">
+      <h2 data-translate="reviewsTitle">Client Reviews</h2>
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>"Michael Fidelis is awesome and knows what he's doing. Very informative. If you want your taxes done right, go see him!"</p>
+          <p class="review-author">– Jennifer Mantilla</p>
+        </div>
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>"Michael is very professional, I have been going to him for 10 years."</p>
+          <p class="review-author">– Shona Evans</p>
+        </div>
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>"Michael is the best income tax preparer!!!"</p>
+          <p class="review-author">– Anne Nwaefulu</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT & SECURE FORM SECTION ==================== -->
+    <section id="contact" class="contact-section">
+      <h2 data-translate="contactTitle">Contact Us</h2>
+      <div class="contact-grid">
+        <div class="contact-map">
+          <iframe 
+            src="https://maps.google.com/maps?q=931%20E%20Park%20Row%20Drive%20Arlington%20TX%2076010&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+            width="100%" 
+            height="380" 
+            style="border:0;" 
+            loading="lazy" 
+            title="Office Location Map"
+            allowfullscreen>
+          </iframe>
+        </div>
+        <div class="contact-form">
+          <div class="secure-badge">
+            <i class="fas fa-lock"></i> SSL Encrypted | <i class="fas fa-user-shield"></i> Your data is private
+          </div>
+          <form action="https://formsubmit.co/fidelity2024@yahoo.com" method="POST">
+            <div class="form-row">
+              <input type="text" name="first" placeholder="First Name / Primer Nombre" required>
+              <input type="text" name="last" placeholder="Last Name / Apellido" required>
+            </div>
+            <div class="form-row">
+              <input type="email" name="email" placeholder="Email / Correo Electrónico" required>
+              <input type="tel" name="phone" placeholder="Phone / Teléfono">
+            </div>
+            <input type="text" name="business" placeholder="Business Name (optional) / Nombre de Negocio (opcional)">
+            <input type="text" name="zipcode" placeholder="Zipcode / Código Postal">
+            <textarea name="message" rows="4" placeholder="Comments or Questions / Comentarios o Preguntas"></textarea>
+            <label class="sms-consent">
+              <input type="checkbox" required> By providing your phone number you consent to receive text messages.
+            </label>
+            <button type="submit" class="btn btn-submit">
+              <i class="fas fa-paper-plane"></i> Send Secure Message
+            </button>
+          </form>
+          <p class="privacy-note">🔒 We respect your privacy. Information is encrypted and never shared.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer>
+    <div class="footer-content">
+      <p>© 2026 Fidelity Income Tax | A Professional Tax Corporation</p>
+      <p>Arlington, TX | <a href="tel:+18174605699">(817) 460-5699</a> | <a href="mailto:fidelity2024@yahoo.com">fidelity2024@yahoo.com</a></p>
+    </div>
+  </footer>
+
+  <!-- JavaScript Files -->
+  <script src="translations.js"></script>
+  <script src="script.js"></script>
+  <script src="globe.js"></script>
+</body>
+</html>
