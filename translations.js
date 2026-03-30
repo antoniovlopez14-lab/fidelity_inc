@@ -25,6 +25,10 @@ const translations = {
     service2: "Business Tax Services",
     service3: "Tax Planning & Risk Management",
     service4: "Bookkeeping",
+    service1Description: "Maximize refunds, minimize stress with expert filing.",
+    service2Description: "Corporate, LLC, partnership filings and compliance.",
+    service3Description: "Strategic advice to lower liability and protect assets.",
+    service4Description: "Accurate records year-round for better decisions.",
     
     // ========== ACCOUNTANT SECTION ==========
     meet: "Meet Dr. Michael Fidelis, PH.D., MST",
@@ -44,7 +48,8 @@ const translations = {
     bookRating: "5.0 out of 5 stars",
     buyAmazon: "Buy on Amazon",
     askAuthor: "Ask the Author",
-   
+    endorsement: "\"A must-read for every tax professional. Dr. Fidelis brings unparalleled expertise to this critical topic.\"",
+    endorser: "Journal of Tax Practice & Research",
     // ========== REVIEWS SECTION ==========
     reviewsTitle: "Client Reviews",
     
@@ -100,6 +105,10 @@ const translations = {
     service2: "Servicios de Impuestos para Negocios",
     service3: "Planificación de Impuestos y Gestión de Riesgos",
     service4: "Contabilidad",
+    service1Description: "Maximice reembolsos, minimice el estrés con presentación experta.",
+    service2Description: "Presentaciones y cumplimiento para corporaciones, LLC, sociedades.",
+    service3Description: "Asesoramiento estratégico para reducir la responsabilidad y proteger activos.",
+    service4Description: "Registros precisos durante todo el año para mejores decisiones.",
     
     // ========== ACCOUNTANT SECTION ==========
     meet: "Conozca al Dr. Michael Fidelis, PH.D., MST",
@@ -152,7 +161,8 @@ const translations = {
     bookRating: "5.0 de 5 estrellas",
     buyAmazon: "Comprar en Amazon",
     askAuthor: "Preguntar al Autor",
-
+    endorsement: "\"Una lectura obligada para todo profesional tributario. El Dr. Fidelis aporta una experiencia incomparable a este tema crítico.\"",
+    endorser: "Journal of Tax Practice & Research",
         
     // ========== FOOTER ==========
     footerRights: "Todos los Derechos Reservados",
