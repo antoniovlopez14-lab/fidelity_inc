@@ -1,0 +1,267 @@
+/* ==================== APPOINTMENT PAGE SPECIFIC STYLES ==================== */
+
+/* Appointment Header */
+.appointment-header {
+  background: #111111;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.appointment-header nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.back-home {
+  color: #cccccc;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.back-home:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+}
+
+/* Language button for appointments page */
+.appointment-header .lang-btn {
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 40px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.85rem;
+  transition: 0.2s;
+}
+
+.appointment-header .lang-btn:hover {
+  background: #ffffff;
+  color: #111111;
+}
+
+/* Main Container */
+.appointment-main {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Appointment Cards */
+.appointment-card {
+  background: white;
+  border-radius: 32px;
+  box-shadow: 0 20px 35px -12px rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border: 1px solid #e0e0e0;
+}
+
+.appointment-card h2 {
+  text-align: left;
+  margin-bottom: 1rem;
+  color: #111111;
+}
+
+.appointment-card h2:after {
+  margin: 0.5rem 0 0 0;
+  background: #111111;
+}
+
+.appointment-card p {
+  color: #555555;
+  margin-bottom: 1.5rem;
+}
+
+/* Calendar Wrapper */
+.calendar-wrapper {
+  border-radius: 24px;
+  overflow: hidden;
+  border: 1px solid #e0e0e0;
+}
+
+.calendar-wrapper iframe {
+  display: block;
+  min-height: 450px;
+}
+
+/* Secure Upload Banner */
+.secure-upload-banner {
+  background: #f5f5f5;
+  border-left: 5px solid #111111;
+  padding: 1.2rem;
+  border-radius: 20px;
+  margin-bottom: 1.8rem;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.secure-upload-banner i {
+  color: #111111;
+}
+
+.secure-upload-banner strong {
+  color: #111111;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.secure-upload-banner p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #444444;
+}
+
+/* Upload Form */
+.upload-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #111111;
+}
+
+.form-group label i {
+  margin-right: 8px;
+  color: #111111;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="file"] {
+  padding: 0.9rem;
+  border: 1px solid #cccccc;
+  border-radius: 20px;
+  font-family: inherit;
+  font-size: 1rem;
+  transition: 0.2s;
+  color: #111111;
+  background: #ffffff;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #111111;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.08);
+}
+
+.form-group input[type="file"] {
+  padding: 0.7rem;
+  cursor: pointer;
+}
+
+.file-hint {
+  font-size: 0.75rem;
+  color: #777777;
+  margin-top: 0.3rem;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  font-weight: normal;
+}
+
+.checkbox-label input {
+  width: auto;
+  margin: 0;
+}
+
+.checkbox-label span {
+  font-size: 0.85rem;
+  color: #555555;
+}
+
+/* Security Footer */
+.security-footer {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e0e0e0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  font-size: 0.8rem;
+  color: #333333;
+  flex-wrap: wrap;
+}
+
+.security-footer i {
+  margin-right: 5px;
+  color: #111111;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .appointment-card { padding: 1.5rem; }
+
+  .secure-upload-banner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .security-footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .appointment-header nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header-right { justify-content: center; }
+
+  .appointment-card h2 { text-align: center; }
+
+  .appointment-card h2:after { margin: 0.5rem auto 0; }
+}
+
+@media (max-width: 480px) {
+  .header-right {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .back-home,
+  .appointment-header .lang-btn {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+}
